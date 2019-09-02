@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7261A120-6AF5-494B-A742-5AB915F9F765}" SchemaVersion="94">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{7261A120-6AF5-494B-A742-5AB915F9F765}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorTime Name="aliancas" ID="{5DEDD6A7-9604-4739-970B-782484755AB2}" ShortID="166011709">
+					<PropertyList>
+						<Property Name="TimeModInitialDelay" Type="Real64" Value="4"/>
+						<Property Name="TimeModLoops" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorTime>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

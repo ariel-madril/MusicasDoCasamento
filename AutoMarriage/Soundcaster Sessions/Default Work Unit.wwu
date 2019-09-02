@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A3BEE9E-72CF-4F4B-9AE5-9AA9BC63DBC7}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5A3BEE9E-72CF-4F4B-9AE5-9AA9BC63DBC7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="test01" ID="{AB7D0A0B-7554-4B8B-A478-DAB7D0F3F11E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="play_ariel" ID="{91CFFDB4-1DC9-49CB-BF9F-68BD0E73F8B0}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_ariel" ID="{36754ED7-C276-4820-841A-E20F2349153B}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_aliancas" ID="{6E7A3B6D-156A-46DC-96DB-9A86972F543E}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_aliancas" ID="{2AD18569-0A7C-486D-9FA3-B142630A2C16}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_madrinhas" ID="{125574C4-67F6-45F1-8B78-F1FAB987D215}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_madrinhas" ID="{B737B958-02A8-417D-BA99-801E77D633B9}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_saida" ID="{953552DD-AFCF-416A-874F-6CF51C0FBDEE}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_saida" ID="{40F5BCB3-5023-44D9-8A84-C28556401AE2}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_padrinhos" ID="{4F23A063-0D1C-48B9-B283-BFC0908E62F6}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_padrinhos" ID="{8ED0974A-954B-40F7-9125-DDE332AB203D}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_camomila" ID="{AC1576DF-8066-4089-9155-853EC56E6F02}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_camomila" ID="{1FC8D6C0-2745-4597-913D-7BAFE00F9DD7}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_flores" ID="{6C1FE57C-EB49-4868-960F-75655DB6CD34}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_flores" ID="{C0631B55-6362-4879-B613-0C796CAB79A0}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_quezia" ID="{F5E48809-7D26-4935-9FBE-DF640C6529A7}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_quezia" ID="{B97D9EDE-18A1-44E9-B37A-B77A7864BE85}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_cerimonia" ID="{9B0667B4-7851-4121-BDCA-51B35F185482}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_cerimonia" ID="{4C345823-9B7C-429B-A33E-15132BDE3BC9}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="6" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

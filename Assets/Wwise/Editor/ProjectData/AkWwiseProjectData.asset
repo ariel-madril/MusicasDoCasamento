@@ -12,14 +12,302 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b415e0212e2ab2444adf491f5f52c67a, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f91d949104f3f3428065818b62823efe
+    GuidInternal: 
+    m_lastTime: -8586342188926644645
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ea1ae80e4ff2e3429a6392e394993f99
+    GuidInternal: 
+    m_lastTime: -8586342188925417910
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1b2974423cdea84085a848450b7bad2f
+    GuidInternal: 
+    m_lastTime: -8586342188926036256
+    List:
+    - name: main
+      guid: 1f9e3d64118a624c9743d2538664dc2a
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: main
+        ObjectType: 7
+      Path: Default Work Unit\main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 83177dd27cf0844b9cd93ea4990da5c9
+    GuidInternal: 
+    m_lastTime: -8586342188925507679
+    List:
+    - name: play_aliancas
+      guid: 6d3b7a6e6a15dc4696db9a86972f543e
+      id: 2284856022
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_aliancas
+        ObjectType: 3
+      Path: Default Work Unit\play_aliancas
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_ariel
+      guid: b4fdcf91c91dcb49bf9f68bd0e73f8b0
+      id: 1436317727
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_ariel
+        ObjectType: 3
+      Path: Default Work Unit\play_ariel
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_camomila
+      guid: df7615ac668089409155853ec56e6f02
+      id: 1840189765
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_camomila
+        ObjectType: 3
+      Path: Default Work Unit\play_camomila
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_cerimonia
+      guid: b467069b51782141bdca51b35f185482
+      id: 4033719467
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_cerimonia
+        ObjectType: 3
+      Path: Default Work Unit\play_cerimonia
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_flores
+      guid: 7ce51f6c49eb6848960f75655db6cd34
+      id: 2932993047
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_flores
+        ObjectType: 3
+      Path: Default Work Unit\play_flores
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_madrinhas
+      guid: c4745512f667f1458b78f1fab987d215
+      id: 1151042385
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_madrinhas
+        ObjectType: 3
+      Path: Default Work Unit\play_madrinhas
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_padrinhos
+      guid: 63a0234f1c0db948b283bfc0908e62f6
+      id: 3153749250
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_padrinhos
+        ObjectType: 3
+      Path: Default Work Unit\play_padrinhos
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_quezia
+      guid: 0988e4f5267d35499fbedf640c6529a7
+      id: 1542054899
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_quezia
+        ObjectType: 3
+      Path: Default Work Unit\play_quezia
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_saida
+      guid: dd523595cfaf6a41874f6cf51c0fbdee
+      id: 2661656822
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_saida
+        ObjectType: 3
+      Path: Default Work Unit\play_saida
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: stop_aliancas
+      guid: 6985d12a7c0a6d489fa3b142630a2c16
+      id: 1756933472
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_aliancas
+        ObjectType: 3
+      Path: Default Work Unit\stop_aliancas
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_all
+      guid: 85b3b6dfdb57a445b100dd8dc88a7d17
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_all
+        ObjectType: 3
+      Path: Default Work Unit\stop_all
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_ariel
+      guid: d74e753676c22048841ae20f2349153b
+      id: 3160947397
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_ariel
+        ObjectType: 3
+      Path: Default Work Unit\stop_ariel
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_camomila
+      guid: c0d6c81f45279745913d7bafe00f9dd7
+      id: 3915122811
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_camomila
+        ObjectType: 3
+      Path: Default Work Unit\stop_camomila
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_cerimonia
+      guid: 2358344c7c9b9b42a33e15132bde3bc9
+      id: 1479497829
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_cerimonia
+        ObjectType: 3
+      Path: Default Work Unit\stop_cerimonia
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_flores
+      guid: 551b63c062637948b6130c796cab79a0
+      id: 370866957
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_flores
+        ObjectType: 3
+      Path: Default Work Unit\stop_flores
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_madrinhas
+      guid: 58b937b7a8027d41ba99801e77d633b9
+      id: 237184151
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_madrinhas
+        ObjectType: 3
+      Path: Default Work Unit\stop_madrinhas
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_padrinhos
+      guid: 4a97d08e4b95f7409125dde332ab203d
+      id: 4244992956
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_padrinhos
+        ObjectType: 3
+      Path: Default Work Unit\stop_padrinhos
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_quezia
+      guid: de9e7db9a118e944b37ab77a7864be85
+      id: 3599359621
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_quezia
+        ObjectType: 3
+      Path: Default Work Unit\stop_quezia
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stop_saida
+      guid: b3bcf5402350d9448a84c28556401ae2
+      id: 2621114172
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_saida
+        ObjectType: 3
+      Path: Default Work Unit\stop_saida
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 905c7e99cdbb784f997161dd6ae78c7f
+    GuidInternal: 
+    m_lastTime: -8586342188925956477
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 557597aa03614a4bb11a6099a4a330b6
+    GuidInternal: 
+    m_lastTime: -8586342188925836804
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 4ff74fe9e2960346ab47e680c2b058c3
+    GuidInternal: 
+    m_lastTime: -8586342188925896640
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 112e2f16cb40eb4792218a5e1da406f3
+    GuidInternal: 
+    m_lastTime: -8586342188927068989
+    List: []
+  ExpandedItems:
+  - /AutoMarriage
+  - /AutoMarriage/Events
+  - /AutoMarriage/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

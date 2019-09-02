@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e1292106af88846847f5dd81901a43, type: 3}
+  m_Name: AC1576DF-8066-4089-9155-853EC56E6F02
+  m_EditorClassIdentifier: 
+  objectName: play_camomila
+  id: 1840189765
+  guid: AC1576DF-8066-4089-9155-853EC56E6F02

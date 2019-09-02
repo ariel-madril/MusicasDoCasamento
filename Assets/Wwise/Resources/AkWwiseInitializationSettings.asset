@@ -14,11 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlatformSettingsNameList:
   - Android
-  - Mac
   - Windows
   PlatformSettingsList:
-  - {fileID: 11400000, guid: cfb139151a98e2a439a3ab9952e2c723, type: 2}
-  - {fileID: 11400000, guid: a9aba76e9c1a7be4f997c792369ee1a7, type: 2}
+  - {fileID: 11400000, guid: 8e57215f3ae45a94b9e0a3d11aa04fe1, type: 2}
   - {fileID: 11400000, guid: 3e96e321bc47440478e236a47a4a16db, type: 2}
   InvalidReferencePlatforms: []
   UserSettings:
