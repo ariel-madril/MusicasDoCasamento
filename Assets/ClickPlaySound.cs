@@ -20,7 +20,7 @@ public class ClickPlaySound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ClickPlaySound.m_LastPlayingEvent = null;
     }
 
     // Update is called once per frame
@@ -31,15 +31,23 @@ public class ClickPlaySound : MonoBehaviour
 
     public void PlaySound()
     {
-        if(ClickPlaySound.m_LastPlayingEvent == null)
+        StartCoroutine(PlayNext());
+    }
+
+    IEnumerator PlayNext()
+    {
+        float waitTime = 2;
+        if (ClickPlaySound.m_LastPlayingEvent == null)
         {
             ClickPlaySound.m_LastPlayingEvent = m_SoundEvent;
+            waitTime = 0;
         }
         else
         {
-            Debug.Log("stopping " + ClickPlaySound.m_LastPlayingEvent.m_StopSoundEvent.Name);
             AkSoundEngine.PostEvent(ClickPlaySound.m_LastPlayingEvent.m_StopSoundEvent.Name, gameObject);
         }
+        ClickPlaySound.m_LastPlayingEvent = m_SoundEvent;
+        yield return new WaitForSeconds(waitTime);
         AkSoundEngine.PostEvent(m_SoundEvent.m_PlaySoundEvent.Name, gameObject);
     }
 }
