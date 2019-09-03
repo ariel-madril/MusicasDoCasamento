@@ -77,6 +77,22 @@
 							<ObjectRef Name="stop_cerimonia" ID="{4C345823-9B7C-429B-A33E-15132BDE3BC9}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
 							<Position X="6" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="play_cerimonia_02" ID="{267FCDE3-02B9-4E16-8E5A-8049C7F33DBE}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="7" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_cerimonia_02" ID="{A3A8E8ED-729A-4876-B5BA-55235197FC1B}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="7" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_cerimonia_03" ID="{C1282DBF-D865-4600-81CC-E196B409D791}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="8" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_cerimonia_03" ID="{CBB45C8D-33A1-4902-89C0-503FAA8E311D}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+							<Position X="8" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

@@ -21,25 +21,30 @@
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2284856022" Name="play_aliancas" ObjectPath="\Events\Default Work Unit\play_aliancas" DurationType="Infinite"/>
-				<Event Id="1436317727" Name="play_ariel" ObjectPath="\Events\Default Work Unit\play_ariel" DurationType="Infinite"/>
-				<Event Id="1840189765" Name="play_camomila" ObjectPath="\Events\Default Work Unit\play_camomila" DurationType="Infinite"/>
-				<Event Id="4033719467" Name="play_cerimonia" ObjectPath="\Events\Default Work Unit\play_cerimonia" DurationType="Infinite"/>
-				<Event Id="2932993047" Name="play_flores" ObjectPath="\Events\Default Work Unit\play_flores" DurationType="Infinite"/>
-				<Event Id="1151042385" Name="play_madrinhas" ObjectPath="\Events\Default Work Unit\play_madrinhas" DurationType="Infinite"/>
-				<Event Id="3153749250" Name="play_padrinhos" ObjectPath="\Events\Default Work Unit\play_padrinhos" DurationType="Infinite"/>
-				<Event Id="1542054899" Name="play_quezia" ObjectPath="\Events\Default Work Unit\play_quezia" DurationType="Infinite"/>
-				<Event Id="2661656822" Name="play_saida" ObjectPath="\Events\Default Work Unit\play_saida" DurationType="Infinite"/>
-				<Event Id="1756933472" Name="stop_aliancas" ObjectPath="\Events\Default Work Unit\stop_aliancas" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="452547817" Name="stop_all" ObjectPath="\Events\Default Work Unit\stop_all" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3160947397" Name="stop_ariel" ObjectPath="\Events\Default Work Unit\stop_ariel" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3915122811" Name="stop_camomila" ObjectPath="\Events\Default Work Unit\stop_camomila" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1479497829" Name="stop_cerimonia" ObjectPath="\Events\Default Work Unit\stop_cerimonia" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="370866957" Name="stop_flores" ObjectPath="\Events\Default Work Unit\stop_flores" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="237184151" Name="stop_madrinhas" ObjectPath="\Events\Default Work Unit\stop_madrinhas" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4244992956" Name="stop_padrinhos" ObjectPath="\Events\Default Work Unit\stop_padrinhos" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3599359621" Name="stop_quezia" ObjectPath="\Events\Default Work Unit\stop_quezia" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2621114172" Name="stop_saida" ObjectPath="\Events\Default Work Unit\stop_saida" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2284856022" Name="play_aliancas" ObjectPath="\Events\Default Work Unit\play_aliancas"/>
+				<Event Id="1436317727" Name="play_ariel" ObjectPath="\Events\Default Work Unit\play_ariel"/>
+				<Event Id="1840189765" Name="play_camomila" ObjectPath="\Events\Default Work Unit\play_camomila"/>
+				<Event Id="4033719467" Name="play_cerimonia" ObjectPath="\Events\Default Work Unit\play_cerimonia"/>
+				<Event Id="2853583068" Name="play_cerimonia_02" ObjectPath="\Events\Default Work Unit\play_cerimonia_02"/>
+				<Event Id="2853583069" Name="play_cerimonia_03" ObjectPath="\Events\Default Work Unit\play_cerimonia_03"/>
+				<Event Id="2932993047" Name="play_flores" ObjectPath="\Events\Default Work Unit\play_flores"/>
+				<Event Id="1151042385" Name="play_madrinhas" ObjectPath="\Events\Default Work Unit\play_madrinhas"/>
+				<Event Id="3153749250" Name="play_padrinhos" ObjectPath="\Events\Default Work Unit\play_padrinhos"/>
+				<Event Id="1542054899" Name="play_quezia" ObjectPath="\Events\Default Work Unit\play_quezia"/>
+				<Event Id="2661656822" Name="play_saida" ObjectPath="\Events\Default Work Unit\play_saida"/>
+				<Event Id="1756933472" Name="stop_aliancas" ObjectPath="\Events\Default Work Unit\stop_aliancas"/>
+				<Event Id="452547817" Name="stop_all" ObjectPath="\Events\Default Work Unit\stop_all"/>
+				<Event Id="1840706724" Name="stop_all_routine" ObjectPath="\Events\Default Work Unit\stop_all_routine"/>
+				<Event Id="3160947397" Name="stop_ariel" ObjectPath="\Events\Default Work Unit\stop_ariel"/>
+				<Event Id="3915122811" Name="stop_camomila" ObjectPath="\Events\Default Work Unit\stop_camomila"/>
+				<Event Id="1479497829" Name="stop_cerimonia" ObjectPath="\Events\Default Work Unit\stop_cerimonia"/>
+				<Event Id="2793406018" Name="stop_cerimonia_02" ObjectPath="\Events\Default Work Unit\stop_cerimonia_02"/>
+				<Event Id="2793406019" Name="stop_cerimonia_03" ObjectPath="\Events\Default Work Unit\stop_cerimonia_03"/>
+				<Event Id="370866957" Name="stop_flores" ObjectPath="\Events\Default Work Unit\stop_flores"/>
+				<Event Id="237184151" Name="stop_madrinhas" ObjectPath="\Events\Default Work Unit\stop_madrinhas"/>
+				<Event Id="4244992956" Name="stop_padrinhos" ObjectPath="\Events\Default Work Unit\stop_padrinhos"/>
+				<Event Id="3599359621" Name="stop_quezia" ObjectPath="\Events\Default Work Unit\stop_quezia"/>
+				<Event Id="2621114172" Name="stop_saida" ObjectPath="\Events\Default Work Unit\stop_saida"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="142813151" Language="SFX">
@@ -53,6 +58,10 @@
 				<File Id="414842996" Language="SFX">
 					<ShortName>camomila-full.wav</ShortName>
 					<Path>SFX\camomila-full_9EADD442.wem</Path>
+				</File>
+				<File Id="459318955" Language="SFX">
+					<ShortName>cerimonia-full.wav</ShortName>
+					<Path>SFX\cerimonia-full_5DDD4B76.wem</Path>
 				</File>
 				<File Id="566697845" Language="SFX">
 					<ShortName>madrinhas-full.wav</ShortName>

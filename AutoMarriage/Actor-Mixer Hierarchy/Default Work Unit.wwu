@@ -362,6 +362,135 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+						<BlendContainer Name="cerimonia_02" ID="{BC1D3B4D-C784-4597-9961-71A0693D3A4B}" ShortID="99537381">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cerimonia-full_02" ID="{0872CC15-1092-4915-A7A5-4AC8ABEAE684}" ShortID="345193123">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cerimonia-full" ID="{DDAB2DF4-9D36-4FD3-8B90-63129FA6C8A9}" ShortID="459318955">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.436856639234742"/>
+												<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>cerimonia-full.wav</AudioFile>
+											<PluginInnerObjectList>
+												<List Name="Markers">
+													<PluginInnerObject Name="" ID="{491FAB53-1C38-4D97-8F1D-6B85D3638486}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="03"/>
+															<Property Name="Time" Type="Real64" Value="112.416792389614"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{34F4CEAD-87E6-4AA7-A9AB-EC787E3EFBB8}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="02"/>
+															<Property Name="Time" Type="Real64" Value="43.8279974438653"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{BC9E7BD2-F0B5-49A2-9E6C-4001D6E905DC}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="cerimonia-loop"/>
+															<Property Name="Time" Type="Real64" Value="32.9006666666667"/>
+														</PropertyList>
+													</PluginInnerObject>
+												</List>
+											</PluginInnerObjectList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cerimonia-full" ID="{DDAB2DF4-9D36-4FD3-8B90-63129FA6C8A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="cerimonia_03" ID="{8BE4B6B7-F684-4AFA-A452-D14F4AA2E301}" ShortID="813434173">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cerimonia-full_03" ID="{192B9CF3-7FA0-4407-A718-D7B1943F91D8}" ShortID="247038618">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cerimonia-full" ID="{F6AE8082-27A2-4BB6-84F6-44EB409F6495}" ShortID="780586906">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.436856639234742"/>
+												<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>cerimonia-full.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="459318955"/>
+											</ConvertedFileIDList>
+											<PluginInnerObjectList>
+												<List Name="Markers">
+													<PluginInnerObject Name="" ID="{5EB908A4-1135-4AEC-9430-33BE8BA21490}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="03"/>
+															<Property Name="Time" Type="Real64" Value="112.416792389614"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{07793039-4B70-4189-BB31-2DAD7C0E4D6D}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="02"/>
+															<Property Name="Time" Type="Real64" Value="43.8279974438653"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{A63F4F58-45CB-47D6-84E1-88B8CC053E25}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="cerimonia-loop"/>
+															<Property Name="Time" Type="Real64" Value="32.9006666666667"/>
+														</PropertyList>
+													</PluginInnerObject>
+												</List>
+											</PluginInnerObjectList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cerimonia-full" ID="{F6AE8082-27A2-4BB6-84F6-44EB409F6495}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -8,9 +8,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	1542054899	play_quezia			\Default Work Unit\play_quezia	
 	1756933472	stop_aliancas			\Default Work Unit\stop_aliancas	
 	1840189765	play_camomila			\Default Work Unit\play_camomila	
+	1840706724	stop_all_routine			\Default Work Unit\stop_all_routine	
 	2284856022	play_aliancas			\Default Work Unit\play_aliancas	
 	2621114172	stop_saida			\Default Work Unit\stop_saida	
 	2661656822	play_saida			\Default Work Unit\play_saida	
+	2793406018	stop_cerimonia_02			\Default Work Unit\stop_cerimonia_02	
+	2793406019	stop_cerimonia_03			\Default Work Unit\stop_cerimonia_03	
+	2853583068	play_cerimonia_02			\Default Work Unit\play_cerimonia_02	
+	2853583069	play_cerimonia_03			\Default Work Unit\play_cerimonia_03	
 	2932993047	play_flores			\Default Work Unit\play_flores	
 	3153749250	play_padrinhos			\Default Work Unit\play_padrinhos	
 	3160947397	stop_ariel			\Default Work Unit\stop_ariel	
@@ -23,6 +28,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	142813151	saida-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Windows\SFX\saida-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\saida\saida-full		6819310
 	414094677	ariel-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Windows\SFX\ariel-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\ariel\ariel-full		8212995
 	414842996	camomila-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Windows\SFX\camomila-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\camomila\camomila-full		4537988
+	459318955	cerimonia-full_03	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Windows\SFX\cerimonia-full_5DDD4B76.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\cerimonia_03\cerimonia-full_03		3737921
 	566697845	madrinhas-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Windows\SFX\madrinhas-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\madrinhas\madrinhas-full		4252335
 	602835495	flores-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Windows\SFX\flores-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\flores\flores-full		5579450
 	605237116	cerimonia-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Windows\SFX\cerimonia-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\cerimonia\cerimonia-full		3739028

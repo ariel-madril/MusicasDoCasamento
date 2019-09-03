@@ -55,7 +55,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Android">
-							<ConversionPlugin Name="" ID="{B9708C31-A8A4-41D4-8ADB-DB640CB13858}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+							<ConversionPlugin Name="" ID="{278ED6AF-E238-423D-8AE6-387C003465A1}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 								<PropertyList>
 									<Property Name="QualityFactor" Type="Real32" Value="8"/>
 								</PropertyList>

@@ -9,7 +9,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{E085E050-29BA-4049-BFC7-BA2DA49872FE}" ShortID="49979144">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{9C0133DC-04EC-4C59-B9D3-31DC8BFF13FD}" ShortID="641316115">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="aliancas" ID="{B1C5481B-E057-4291-A3C7-87F6D1DC19FF}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -24,7 +38,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{2736CABD-D814-4228-B83D-E1AA85B0BF6A}" ShortID="157947135">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{2F5116AD-55CF-4120-BDE1-7CE6DD4A6C4B}" ShortID="261091560">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ariel" ID="{D65F99D9-60BB-48BE-8904-2740DB39847F}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -39,7 +67,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{80A4F486-C9DB-4E86-B0CA-C82B703F1008}" ShortID="251686882">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{421B2357-8BC7-4FF3-99BB-35FF4274FD2D}" ShortID="951017149">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="camomila" ID="{CE48F8E4-9E13-4E93-A66B-9FA74A682088}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -54,7 +96,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{39D91980-D4D0-4F4C-891E-4C17018A430A}" ShortID="839238709">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{3DAAEA11-D7E0-4A24-9EA3-59A35DFB2823}" ShortID="652776708">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="cerimonia" ID="{3A170531-0539-43A0-BD73-F11296791CB8}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -69,7 +125,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{7273316C-73A0-4207-949F-75EC2DDB8829}" ShortID="86149240">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{EECC773B-2910-4D0C-8F77-F8C363D0839F}" ShortID="377743988">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="flores" ID="{CAC57918-9178-4E56-86A2-43069830067C}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -84,7 +154,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{E2DFE2E9-A7E6-4CAA-8ACD-A965048DB5AC}" ShortID="109439408">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{3BF30185-7897-4122-989A-B7A942343228}" ShortID="364343673">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="madrinhas" ID="{7C4C759D-9A53-448B-847A-9331F900035F}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -99,7 +183,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{6603C0FB-37BC-4EA9-8BF4-2E34DB01BC2D}" ShortID="169873969">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{D9078D65-40E9-43CC-A767-EDC2F45A6B0C}" ShortID="995297164">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="padrinhos" ID="{B041904A-7DF0-4148-928C-EB731FE58E5A}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -114,7 +212,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{D5E97906-0C46-4227-894B-6AEABE3BC784}" ShortID="843942124">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{1995FCDF-C4BE-44CE-AE1F-A64CD13D8749}" ShortID="454749423">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="quezia" ID="{3589FCBA-25CF-496E-A289-F2BC66C1E264}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -129,7 +241,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{C3896F8E-36D3-41D0-B008-EBB76BB0101E}" ShortID="879151981">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{D45EEAA1-2E03-4EE5-A21B-AD5A5A4B2273}" ShortID="414901098">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="saida" ID="{CFA3769C-3A99-4EFE-94EF-D4C0D73746B7}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
@@ -147,6 +273,7 @@
 						<Action Name="" ID="{3DC544E2-C5FC-41E1-A2C8-91539B786B01}" ShortID="452287335">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -157,6 +284,7 @@
 						<Action Name="" ID="{92F58E4B-9403-41D5-AFD4-5A700C626DE6}" ShortID="182478403">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -167,6 +295,7 @@
 						<Action Name="" ID="{E2DF7884-0BBD-4BFD-9D64-999393736021}" ShortID="300073700">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -177,6 +306,7 @@
 						<Action Name="" ID="{66600458-DDFE-4116-955C-20D3C44A4063}" ShortID="236126897">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -187,6 +317,7 @@
 						<Action Name="" ID="{F710ED4F-DDFE-4990-A175-3613434BCB5C}" ShortID="146352577">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -197,6 +328,7 @@
 						<Action Name="" ID="{68849CD9-4A32-406C-A4A8-24AC7F262558}" ShortID="974958898">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -207,6 +339,7 @@
 						<Action Name="" ID="{62F64214-7FE4-4C2D-930A-9C7C459D1BC4}" ShortID="1035076568">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -217,6 +350,7 @@
 						<Action Name="" ID="{8234099B-992B-4147-91B5-E31DC4FDF0D5}" ShortID="944927376">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -227,10 +361,33 @@
 						<Action Name="" ID="{C3ECCA2E-CF45-419A-AB48-16A9943613E4}" ShortID="1007198122">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="aliancas" ID="{B1C5481B-E057-4291-A3C7-87F6D1DC19FF}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2D1020CA-8EFA-47BA-B3A5-377AE89BC0A7}" ShortID="558874295">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia_03" ID="{8BE4B6B7-F684-4AFA-A452-D14F4AA2E301}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9580979B-A7CA-42F7-A3A6-7DC6743C80B4}" ShortID="499968213">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia_02" ID="{BC1D3B4D-C784-4597-9961-71A0693D3A4B}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -246,6 +403,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -265,6 +423,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -284,6 +443,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -303,6 +463,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -322,6 +483,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -341,6 +503,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -360,6 +523,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -379,6 +543,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -398,10 +563,273 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="aliancas" ID="{B1C5481B-E057-4291-A3C7-87F6D1DC19FF}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{7DA12FC9-18E3-4D79-9B1B-94563FF48B85}" ShortID="1031575613">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ariel" ID="{D65F99D9-60BB-48BE-8904-2740DB39847F}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{54D791F4-783D-4FFD-8E97-BAA087681CCF}" ShortID="190748606">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="camomila" ID="{CE48F8E4-9E13-4E93-A66B-9FA74A682088}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E40FA09A-07FE-4EDF-B984-240070CBC758}" ShortID="792376156">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia" ID="{3A170531-0539-43A0-BD73-F11296791CB8}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F4732D2C-57F9-4F87-872E-AADD0D46FF33}" ShortID="689691556">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="flores" ID="{CAC57918-9178-4E56-86A2-43069830067C}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E9AB6EE9-9021-4344-B31F-67116CD7DCD3}" ShortID="450967850">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="madrinhas" ID="{7C4C759D-9A53-448B-847A-9331F900035F}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ADA3E565-FA2D-4DAC-99BB-69AEBC9BA3E6}" ShortID="782360505">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="padrinhos" ID="{B041904A-7DF0-4148-928C-EB731FE58E5A}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D9B65DD0-1829-46F8-8169-A77AE343DE8A}" ShortID="1008709263">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="quezia" ID="{3589FCBA-25CF-496E-A289-F2BC66C1E264}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{21AD91F7-1130-4143-BD50-66FCEF75D811}" ShortID="317838097">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="saida" ID="{CFA3769C-3A99-4EFE-94EF-D4C0D73746B7}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{46DAED25-AE54-4CAC-85B3-4650CBBBA4A8}" ShortID="441534034">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="aliancas" ID="{B1C5481B-E057-4291-A3C7-87F6D1DC19FF}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7435F2C-F95B-4C48-BF84-A9B3992E76F1}" ShortID="375605084">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia_03" ID="{8BE4B6B7-F684-4AFA-A452-D14F4AA2E301}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05A00071-121C-4849-ABE1-1A997115B92E}" ShortID="554566787">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia_02" ID="{BC1D3B4D-C784-4597-9961-71A0693D3A4B}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_cerimonia_03" ID="{C1282DBF-D865-4600-81CC-E196B409D791}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F2F219E9-414A-4555-93CE-A0E858948750}" ShortID="627654209">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A9DAB0E9-4A66-4A87-997B-11627F1B88E7}" ShortID="400639520">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekTime" Type="Real64" Value="43"/>
+								<Property Name="SeekType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia-full_03" ID="{192B9CF3-7FA0-4407-A718-D7B1943F91D8}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5E035A69-0144-4FDA-B5D7-C8C385ADEE71}" ShortID="560091865">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia_03" ID="{8BE4B6B7-F684-4AFA-A452-D14F4AA2E301}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_cerimonia_02" ID="{267FCDE3-02B9-4E16-8E5A-8049C7F33DBE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{9851FD37-46D3-4F30-B48D-91B4B78DF3E0}" ShortID="50445592">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stop_all_routine" ID="{FB2BB770-7ED9-435B-A46A-46109D6004BB}" WorkUnitID="{D27D1783-F07C-4B84-9CD9-3EA4990DA5C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{088264F7-650F-4033-A25E-CDBC272232F2}" ShortID="370549657">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekTime" Type="Real64" Value="43"/>
+								<Property Name="SeekType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia-full_02" ID="{0872CC15-1092-4915-A7A5-4AC8ABEAE684}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{89C43A43-E791-4BD2-A460-E973F8BBD141}" ShortID="441172819">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia_02" ID="{BC1D3B4D-C784-4597-9961-71A0693D3A4B}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_cerimonia_02" ID="{A3A8E8ED-729A-4876-B5BA-55235197FC1B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{297C22E4-6A6E-4049-B2AB-7C101B0B17F8}" ShortID="692914958">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia_02" ID="{BC1D3B4D-C784-4597-9961-71A0693D3A4B}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_cerimonia_03" ID="{CBB45C8D-33A1-4902-89C0-503FAA8E311D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{27E352E0-3F73-43A7-B90E-800980BD2A17}" ShortID="310203399">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cerimonia_03" ID="{8BE4B6B7-F684-4AFA-A452-D14F4AA2E301}" WorkUnitID="{4FB08306-4A09-4D83-8A15-CE061B80F603}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

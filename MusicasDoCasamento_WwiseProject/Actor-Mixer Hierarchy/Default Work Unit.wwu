@@ -1,6 +1,499 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D1C8A3A9-4025-4C2B-A454-946F50263163}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{4FB08306-4A09-4D83-8A15-CE061B80F603}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{D1C8A3A9-4025-4C2B-A454-946F50263163}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4FB08306-4A09-4D83-8A15-CE061B80F603}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="aliancas" ID="{B1C5481B-E057-4291-A3C7-87F6D1DC19FF}" ShortID="236550330">
+					<PropertyList>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="aliancas_seq" ID="{DBB132E3-935A-4635-A3CF-C17262687D2D}" ShortID="668018230">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.184"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="aliancas-loop" ID="{E2E00549-6568-485B-9AAB-0F0B5346103B}" ShortID="901756006">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="aliancas-loop" ID="{3630D488-6DED-42F5-A2D4-4340712D563B}" ShortID="962682728">
+											<PropertyList>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>aliancas-loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="aliancas-loop" ID="{3630D488-6DED-42F5-A2D4-4340712D563B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="aliancas-loop" ID="{E2E00549-6568-485B-9AAB-0F0B5346103B}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+				<Folder Name="new" ID="{9DF77E76-19C6-4070-878C-39CD7410B715}" ShortID="990832671">
+					<ChildrenList>
+						<BlendContainer Name="camomila" ID="{CE48F8E4-9E13-4E93-A66B-9FA74A682088}" ShortID="171093751">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="camomila-full" ID="{368D7B02-6C89-41FD-A0AD-1E55877057C8}" ShortID="253118818">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="camomila-full" ID="{CB12E918-1221-43FC-B7D8-288BC1C62500}" ShortID="414842996">
+											<Language>SFX</Language>
+											<AudioFile>camomila-full.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="camomila-full" ID="{CB12E918-1221-43FC-B7D8-288BC1C62500}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="cerimonia" ID="{3A170531-0539-43A0-BD73-F11296791CB8}" ShortID="1061644610">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cerimonia-full" ID="{C356B357-97EB-4232-BC42-D96EBE6010A4}" ShortID="167005495">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cerimonia-full" ID="{B59BA3A7-A3B6-4405-9B9A-2B902530EB8F}" ShortID="605237116">
+											<Language>SFX</Language>
+											<AudioFile>cerimonia-full.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cerimonia-full" ID="{B59BA3A7-A3B6-4405-9B9A-2B902530EB8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="flores" ID="{CAC57918-9178-4E56-86A2-43069830067C}" ShortID="832522802">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="flores-full" ID="{24232A45-9E3F-477C-A945-DD1CCB8BDAE8}" ShortID="970956854">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flores-full" ID="{04DC75E6-A4F0-499C-A52B-1EE562A0E107}" ShortID="602835495">
+											<Language>SFX</Language>
+											<AudioFile>flores-full.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="flores-full" ID="{04DC75E6-A4F0-499C-A52B-1EE562A0E107}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="madrinhas" ID="{7C4C759D-9A53-448B-847A-9331F900035F}" ShortID="394599453">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="madrinhas-full" ID="{0A5A3197-106B-4B4E-A9C1-698DF50217AC}" ShortID="21202984">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="madrinhas-full" ID="{B5A74BE6-0F44-4771-89DC-B7852DB81F92}" ShortID="566697845">
+											<Language>SFX</Language>
+											<AudioFile>madrinhas-full.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="madrinhas-full" ID="{B5A74BE6-0F44-4771-89DC-B7852DB81F92}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="padrinhos" ID="{B041904A-7DF0-4148-928C-EB731FE58E5A}" ShortID="677605684">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="padrinhos-full" ID="{FF6A55BE-D187-41A0-B6D2-E6779611FF79}" ShortID="401624851">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="padrinhos-full" ID="{315212C2-53E8-46E9-925C-197C04A2B288}" ShortID="1061685162">
+											<Language>SFX</Language>
+											<AudioFile>padrinhos-full.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="padrinhos-full" ID="{315212C2-53E8-46E9-925C-197C04A2B288}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="quezia" ID="{3589FCBA-25CF-496E-A289-F2BC66C1E264}" ShortID="810820502">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="quezia-full" ID="{AD382BAD-AC36-4D05-A5FA-F216F388D817}" ShortID="774292231">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="quezia-full" ID="{7913900F-8CD9-4B3A-8124-237E329C0EEC}" ShortID="836598438">
+											<Language>SFX</Language>
+											<AudioFile>quezia-full.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="quezia-full" ID="{7913900F-8CD9-4B3A-8124-237E329C0EEC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="saida" ID="{CFA3769C-3A99-4EFE-94EF-D4C0D73746B7}" ShortID="820967039">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="saida-full" ID="{C14B2AC9-BEED-4CB1-A5D1-0310B097399A}" ShortID="634571640">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="saida-full" ID="{2D3C93E9-C379-4FDB-B4F9-EC9EB2E683E1}" ShortID="142813151">
+											<Language>SFX</Language>
+											<AudioFile>saida-full.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="saida-full" ID="{2D3C93E9-C379-4FDB-B4F9-EC9EB2E683E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="ariel" ID="{D65F99D9-60BB-48BE-8904-2740DB39847F}" ShortID="146356794">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ariel-full" ID="{53C31B50-ECEE-42A4-9B0C-91C0044BC288}" ShortID="731945220">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ariel-full" ID="{112B06A1-7BC6-45F0-AD8F-7B3224EF30F4}" ShortID="414094677">
+											<Language>SFX</Language>
+											<AudioFile>ariel-full.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ariel-full" ID="{112B06A1-7BC6-45F0-AD8F-7B3224EF30F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="cerimonia_02" ID="{BC1D3B4D-C784-4597-9961-71A0693D3A4B}" ShortID="99537381">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cerimonia-full_02" ID="{0872CC15-1092-4915-A7A5-4AC8ABEAE684}" ShortID="345193123">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cerimonia-full" ID="{DDAB2DF4-9D36-4FD3-8B90-63129FA6C8A9}" ShortID="459318955">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.436856639234742"/>
+												<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>cerimonia-full.wav</AudioFile>
+											<PluginInnerObjectList>
+												<List Name="Markers">
+													<PluginInnerObject Name="" ID="{491FAB53-1C38-4D97-8F1D-6B85D3638486}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="03"/>
+															<Property Name="Time" Type="Real64" Value="112.416792389614"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{34F4CEAD-87E6-4AA7-A9AB-EC787E3EFBB8}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="02"/>
+															<Property Name="Time" Type="Real64" Value="43.8279974438653"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{BC9E7BD2-F0B5-49A2-9E6C-4001D6E905DC}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="cerimonia-loop"/>
+															<Property Name="Time" Type="Real64" Value="32.9006666666667"/>
+														</PropertyList>
+													</PluginInnerObject>
+												</List>
+											</PluginInnerObjectList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cerimonia-full" ID="{DDAB2DF4-9D36-4FD3-8B90-63129FA6C8A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="cerimonia_03" ID="{8BE4B6B7-F684-4AFA-A452-D14F4AA2E301}" ShortID="813434173">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cerimonia-full_03" ID="{192B9CF3-7FA0-4407-A718-D7B1943F91D8}" ShortID="247038618">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cerimonia-full" ID="{F6AE8082-27A2-4BB6-84F6-44EB409F6495}" ShortID="780586906">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.436856639234742"/>
+												<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>cerimonia-full.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="459318955"/>
+											</ConvertedFileIDList>
+											<PluginInnerObjectList>
+												<List Name="Markers">
+													<PluginInnerObject Name="" ID="{5EB908A4-1135-4AEC-9430-33BE8BA21490}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="03"/>
+															<Property Name="Time" Type="Real64" Value="112.416792389614"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{07793039-4B70-4189-BB31-2DAD7C0E4D6D}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="02"/>
+															<Property Name="Time" Type="Real64" Value="43.8279974438653"/>
+														</PropertyList>
+													</PluginInnerObject>
+													<PluginInnerObject Name="" ID="{A63F4F58-45CB-47D6-84E1-88B8CC053E25}" PluginName="Marker" CompanyID="0" PluginID="993">
+														<PropertyList>
+															<Property Name="Label" Type="string" Value="cerimonia-loop"/>
+															<Property Name="Time" Type="Real64" Value="32.9006666666667"/>
+														</PropertyList>
+													</PluginInnerObject>
+												</List>
+											</PluginInnerObjectList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cerimonia-full" ID="{F6AE8082-27A2-4BB6-84F6-44EB409F6495}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -34,7 +34,8 @@ public class ClickPlaySound : MonoBehaviour
 
     public void PlaySound()
     {
-        StartCoroutine(PlayNext());
+        AkSoundEngine.PostEvent(m_SoundEvent.m_PlaySoundEvent.Name, gameObject);
+        //StartCoroutine(PlayNext());
     }
 
     IEnumerator PlayNext()

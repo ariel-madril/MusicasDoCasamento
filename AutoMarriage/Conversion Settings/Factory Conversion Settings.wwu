@@ -41,10 +41,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{62FEA677-81F6-4E26-B83D-345279EFA8D9}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{20299FE4-0AD6-4625-AC9C-705A84030A0B}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{DC7EFAD4-9E8B-49DA-9E42-7B34256256B0}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{76589674-BE99-4F4E-A964-B2975B8E933F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -84,10 +84,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{5C28E200-CFDD-49E3-82FC-9E589B729F61}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{52A58A6F-1F92-46B9-B37D-18C16F6481F1}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{AE819A77-84C1-4694-A6A1-C544E5ED73D0}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{BE760F9F-2236-4C78-827E-6A24618BEACC}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -127,10 +127,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{547BA8CD-E373-406A-93CF-97D5C5DC9897}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{7B68E26F-F616-424D-9BE3-8DB8DDC4BFC4}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{4C41910A-1632-4F05-BAE2-A331836C132C}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{FF6ECD7E-5B13-4511-8D71-F8CFA23AC63F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -169,10 +169,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{02E1450D-69DF-4FD2-9213-A70B01E14801}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{EFD97858-CCAC-43E2-B51D-B62E182335D6}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{A307CA9E-8937-43EA-96D7-16481014A11A}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{FD3B35CD-6A6F-4A64-9E07-E6A978A20E35}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -211,14 +211,14 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{6A6A3C6C-3F7D-4210-A3CF-6C4D5B2C71F3}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+									<ConversionPlugin Name="" ID="{7DFAF711-FB5C-4665-9E46-E7D5E9B0D6B3}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 										<PropertyList>
 											<Property Name="QualityFactor" Type="Real32" Value="0"/>
 										</PropertyList>
 									</ConversionPlugin>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{EBF372BC-8E02-4229-9EF8-34579DEAFB8A}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+									<ConversionPlugin Name="" ID="{84F65B6B-64EC-4A93-8F75-76FDE96AA05A}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 										<PropertyList>
 											<Property Name="QualityFactor" Type="Real32" Value="0"/>
 										</PropertyList>
@@ -261,14 +261,14 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{21CE85A5-BA3E-41B0-A863-E73B393266D5}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+									<ConversionPlugin Name="" ID="{D021246A-28BA-4026-BB5E-1A34BECF1F47}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 										<PropertyList>
 											<Property Name="QualityFactor" Type="Real32" Value="2"/>
 										</PropertyList>
 									</ConversionPlugin>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{D9EA9E52-500B-410B-83DF-51871E23352B}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+									<ConversionPlugin Name="" ID="{B140A51D-94AA-4C1D-924F-85CA80335FBC}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 										<PropertyList>
 											<Property Name="QualityFactor" Type="Real32" Value="2"/>
 										</PropertyList>
@@ -315,10 +315,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{FA53DF49-420A-48BF-ACC8-4408D8BCBC3C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{6FAF47B7-CD51-425F-8F93-9B47B57D4BC4}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{0480E5DD-942B-4F02-BFF8-E9294D32BD47}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{779B4A0C-BF86-4552-82AA-A1ADB6DF9BC8}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -358,10 +358,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{E9047E62-E12A-4D17-A85A-57003F6FBE54}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{B814B45F-1566-4BD8-890A-521E856192F4}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{032B4BB7-6BE1-4B3E-83DE-94F6CB69100E}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{39B7C441-5A02-4D22-85AA-4EEC91A3C911}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -401,10 +401,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{951C6F13-3439-4A9C-9CE5-F2DE36ED122E}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{63148830-C97C-4C86-A8C1-19A0EE8F87C3}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{0064B9BB-0326-4318-A99A-73C35EC409C7}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{75B87423-7298-43E9-A8A9-A4F1545D8D32}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -444,10 +444,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{DD7B7CF1-211B-4F8D-B926-BAF6DDFF1E5A}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{97C449DF-31AB-4DE2-AE9B-45C699100CBC}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{ECAE0CE2-5C5A-487E-88BE-76F20188D857}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{7ACEB955-5ED9-44FB-A425-607FFC0D773C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -490,10 +490,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{DB68326E-62BB-45B4-B877-48BEE4E7F66F}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{4A7E200F-6F94-4567-9318-1381F0D1BB18}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{0C885418-CF4B-4D6B-911A-883BE81D3CD0}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{D2DA284D-36F4-4B02-89ED-BBB9D82D1BCE}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -533,10 +533,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{A2FA3FF6-D7BB-4082-9E0C-6DE165E8C137}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{0FDF3ABD-E7C3-4373-8CBE-78809C269F7E}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{D6024149-B143-49C7-A7C8-5EED50428FF1}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{DAF43988-609B-4C59-A2BF-14D6548A4A98}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -576,10 +576,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{DB326207-B1AB-44B5-AB05-7B517894388A}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{03C9E680-A07E-4D63-BCDA-86E5B7E91D11}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{0299F273-F1EB-438B-87C8-EE7E77F82A48}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{3DD6FD06-4839-4356-BAD2-BD411027CF21}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -619,10 +619,10 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{6565656C-5405-41A6-A0C5-0C4C79B51FBA}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{2DB7C93A-EC10-408C-B819-1004D6EC299E}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Android">
-									<ConversionPlugin Name="" ID="{6515F6DF-3F2A-4D3F-9344-B281A70F8BEC}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{AFFFDBCE-8583-4EE2-AB9F-26C6FFB58C05}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>

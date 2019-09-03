@@ -309,5 +309,6 @@ MonoBehaviour:
   - /AutoMarriage
   - /AutoMarriage/Events
   - /AutoMarriage/Events/Default Work Unit
+  - /AutoMarriage/SoundBanks
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
