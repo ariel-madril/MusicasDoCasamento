@@ -10,6 +10,8 @@ public class WwiseEventPair
     public AK.Wwise.Event m_PlaySoundEvent;
 
     public AK.Wwise.Event m_StopSoundEvent;
+
+    public GameObject m_Owner;
 }
 public class ClickPlaySound : MonoBehaviour
 {
@@ -21,6 +23,7 @@ public class ClickPlaySound : MonoBehaviour
     void Start()
     {
         ClickPlaySound.m_LastPlayingEvent = null;
+        m_SoundEvent.m_Owner = gameObject;
     }
 
     // Update is called once per frame
@@ -44,7 +47,7 @@ public class ClickPlaySound : MonoBehaviour
         }
         else
         {
-            AkSoundEngine.PostEvent(ClickPlaySound.m_LastPlayingEvent.m_StopSoundEvent.Name, gameObject);
+            AkSoundEngine.PostEvent(ClickPlaySound.m_LastPlayingEvent.m_StopSoundEvent.Name, ClickPlaySound.m_LastPlayingEvent.m_Owner);
         }
         ClickPlaySound.m_LastPlayingEvent = m_SoundEvent;
         yield return new WaitForSeconds(waitTime);
