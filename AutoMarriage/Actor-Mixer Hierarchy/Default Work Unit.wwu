@@ -378,6 +378,11 @@
 								<Sound Name="cerimonia-full_02" ID="{0872CC15-1092-4915-A7A5-4AC8ABEAE684}" ShortID="345193123">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -487,6 +492,99 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="cerimonia-full" ID="{F6AE8082-27A2-4BB6-84F6-44EB409F6495}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Chimes" ID="{10CD8E01-F392-4778-A31C-F4C23B9FC66B}" ShortID="282069292">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="chimes" ID="{C3B23473-82CC-4C92-A653-3469D40FD994}" ShortID="80537700">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chimes" ID="{4DE51DD4-67A4-4924-9E09-CB6824E7C61B}" ShortID="647005353">
+											<Language>SFX</Language>
+											<AudioFile>chimes.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chimes" ID="{4DE51DD4-67A4-4924-9E09-CB6824E7C61B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="BassDrop" ID="{F63172A9-B98C-467C-B51A-E186D31FD041}" ShortID="889033732">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="bassdrop" ID="{54330EA2-88D1-4394-9FC3-222F187B72D9}" ShortID="165575848">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bassdrop" ID="{C0846E71-E9A0-4883-AD2D-A67990BB51B9}" ShortID="821936135">
+											<Language>SFX</Language>
+											<AudioFile>bassdrop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="bassdrop" ID="{C0846E71-E9A0-4883-AD2D-A67990BB51B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="shuffeling" ID="{728C787F-4193-4007-A7CE-A1AF3B597995}" ShortID="1016001045">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="shuffeling" ID="{BAD54DAD-5704-4B2C-BEA5-FF01837CDEA9}" ShortID="676704989">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EE81AEA-F24F-42E3-9A63-92E394993F99}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shuffeling" ID="{75A2E597-5FD9-4020-BEBB-C93F13571F9F}" ShortID="869761582">
+											<Language>SFX</Language>
+											<AudioFile>shuffeling.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shuffeling" ID="{75A2E597-5FD9-4020-BEBB-C93F13571F9F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

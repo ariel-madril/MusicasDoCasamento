@@ -22,6 +22,8 @@ public class ClickPlaySound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Screen.fullScreen = false;
+        Application.runInBackground = true;
         ClickPlaySound.m_LastPlayingEvent = null;
         m_SoundEvent.m_Owner = gameObject;
     }
@@ -34,7 +36,11 @@ public class ClickPlaySound : MonoBehaviour
 
     public void PlaySound()
     {
-        AkSoundEngine.PostEvent(m_SoundEvent.m_PlaySoundEvent.Name, gameObject);
+        if(ClickPlaySound.m_LastPlayingEvent != m_SoundEvent)
+        {
+            ClickPlaySound.m_LastPlayingEvent = m_SoundEvent;
+            AkSoundEngine.PostEvent(m_SoundEvent.m_PlaySoundEvent.Name, gameObject);
+        }
         //StartCoroutine(PlayNext());
     }
 

@@ -30,9 +30,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	414842996	camomila-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\camomila-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\camomila\camomila-full		4537988
 	459318955	cerimonia-full_03	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\cerimonia-full_5DDD4B76.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\cerimonia_03\cerimonia-full_03		3737921
 	566697845	madrinhas-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\madrinhas-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\madrinhas\madrinhas-full		4252335
+	587684312	bassdrop	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\bassdrop_0C54B278.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\BassDrop\bassdrop		16101
 	602835495	flores-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\flores-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\flores\flores-full		5579450
 	605237116	cerimonia-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\cerimonia-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\cerimonia\cerimonia-full		3739028
+	647005353	chimes	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\chimes_0C54B278.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\Chimes\chimes		112312
 	836598438	quezia-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\quezia-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\quezia\quezia-full		6663493
+	869761582	shuffeling	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\shuffeling_0C54B278.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\shuffeling\shuffeling		71231
 	962682728	aliancas-loop	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\aliancas-loop_3367F613.wem		\Actor-Mixer Hierarchy\Default Work Unit\aliancas\aliancas_seq\aliancas-loop		1297170
 	1061685162	padrinhos-full	D:\Projects\Unity\MusicasDoCasamento\AutoMarriage\.cache\Android\SFX\padrinhos-full_9EADD442.wem		\Actor-Mixer Hierarchy\Default Work Unit\new\padrinhos\padrinhos-full		7924543
 

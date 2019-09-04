@@ -71,8 +71,8 @@ public class AkInitializer : UnityEngine.MonoBehaviour
 
 	private void OnApplicationFocus(bool focus)
 	{
-		if (ms_Instance == this)
-			AkSoundEngineController.Instance.OnApplicationFocus(focus);
+		/*if (ms_Instance == this)
+			AkSoundEngineController.Instance.OnApplicationFocus(focus);*/
 	}
 
 	private void OnApplicationQuit()
