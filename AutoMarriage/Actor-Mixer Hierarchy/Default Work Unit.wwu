@@ -537,7 +537,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="bassdrop" ID="{54330EA2-88D1-4394-9FC3-222F187B72D9}" ShortID="165575848">
+								<Sound Name="bassdrop" ID="{0C0AB7E8-578C-4A62-B0F4-F3D0E9798934}" ShortID="450088416">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79C71729-8038-4933-9ADA-0C74F698A990}"/>
@@ -547,13 +547,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="bassdrop" ID="{C0846E71-E9A0-4883-AD2D-A67990BB51B9}" ShortID="821936135">
+										<AudioFileSource Name="bassdrop" ID="{E99D1AB1-CB5B-4488-9C10-BB31F058030B}" ShortID="587684312">
 											<Language>SFX</Language>
 											<AudioFile>bassdrop.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="bassdrop" ID="{C0846E71-E9A0-4883-AD2D-A67990BB51B9}" Platform="Linked"/>
+										<ActiveSource Name="bassdrop" ID="{E99D1AB1-CB5B-4488-9C10-BB31F058030B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
